@@ -1,10 +1,12 @@
 package main;
 
 public class Node {
-    private int data;
 
     // commit - ctrl + k
     // push - ctrl + shift + k
+
+    private int data;
+    private Node next;
 
     public int getData() {
         return data;
